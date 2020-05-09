@@ -1,4 +1,8 @@
-#if you do element(details etc).grid it returns none do seperate
+'''by @anactualhuman_
+Just send emails i guess
+change the email_sender and pwrd to your own and make sure your google account's unsafe app setting is on
+and that's basically it
+'''
 
 from tkinter import *
 import smtplib
@@ -8,8 +12,8 @@ root.title("Emailer")
 root.resizable(0,0)
 root.iconbitmap('icon.ico')
 
-email_sender = 'adamjohnbaird123@gmail.com'
-sender_pwrd = 'SnoopyShaka321'
+email_sender = '[your email goes here]'
+sender_pwrd = '[your password goes here]'
 
 def send_mail():
     global subject, body

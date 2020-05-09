@@ -5,4 +5,5 @@ it uh.. it literally just sends emails
 tkinter and python
 
 ## Instructions
-uh, just send an email i guess
+in the emailer.py script set the emailer_sender and emailer_pwrd to your own and run it
+
